@@ -10,7 +10,7 @@ public class Kalapacsvetes {
 
 
 public static void main(String[] args) {
-      String filePath = "C:\\Users\\mdrag\\Desktop\\meres\\meres-2025-01\\anyagok\\kalapacsvetes.txt";
+      String filePath = "C:\\Users\\mdrag\\Desktop\\meres\\meres-2025-01\\Kalapacsvetes\\anyagok\\kalapacsvetes.txt";
         ArrayList<Sportolo> sportolok = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
